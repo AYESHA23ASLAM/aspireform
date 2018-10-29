@@ -1,0 +1,399 @@
+body{
+	font-family: verdana;
+}
+*{
+	margin:0px;
+	padding:0px;
+}
+#main{
+	width:1200px;
+	height:2980px;
+	margin:20px auto;
+	border:2px solid black;
+}
+#container{
+	width:1200px;
+	height:1216px;
+	background-color: white;
+}
+#right-section{
+	width:348px;
+	height:1200px;
+	float:right;
+	background-color: #ffe6e6;
+	border-left: 2px solid black;
+}
+#header{
+	width:840px;
+	height:200px;
+	background-color: #f0e6ff;
+	display:block;
+}
+#logo{
+	width:600px;
+	height:200px;
+	background-color: #f0e6ff;
+	display:block;
+	
+}
+#description{
+	width:300px;
+	height:200px;
+	background-color: #f0e6ff;
+	float: right;
+}
+.left-section{
+	width:840px;
+	height:1000px;
+	background-color: #e0ebeb;
+	margin-top: 10px;
+	
+}
+#description h1{
+	font-weight: bold;
+	font-size: 40px;
+	text-align: left;
+	margin-top:75px;
+	display: inline-block;
+}
+#description h4{
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 10px;
+	line-height: 65px;
+	text-align: left;
+	color:red;
+	display: inline-block;
+}
+#description h6{
+	font-weight: bold;
+	font-size: 15px;
+	text-align: left;
+	display: inline-block;	
+}
+#logo img{
+	margin-top: 50px;
+	margin-left: 65px;
+	float:left;
+}
+.left-section strong,h3{
+	margin-left: 30px;
+	color:red;
+	margin-top: 10px;
+	font-size: 25px;
+}
+#right-section h2{
+	margin-top: 30px;
+	margin-left: 50px;
+	font-weight: bold;
+	font-size: 25px;
+}
+#photo{
+	width:170px;
+	height:170px;
+	border: 1px solid black;
+	background-color: white;
+	margin-right: 50px;
+	margin-top:30px;
+	float:right;	
+}
+#photo h4{
+	margin-left:60px;
+	margin-top: 50px;
+}
+#info{
+	width:348px;
+	height:920px;
+	background-color: #ffe6e6;
+	margin-top: 220px;
+}
+#info form{
+	margin-left: 30px;
+	line-height: 35px;
+	font-family: verdana;
+	font-size: 22px;
+}
+#info input{
+	border:1px solid black;
+	margin-left: 20px; 
+}
+#checkbox{
+	width:348px;
+	height:700px;
+	background-color: #ffe6e6;
+}
+#checkbox input{
+	margin-left:30px;
+	float:center;
+}
+#checkbox form{
+	margin-left: 30px;
+	line-height: 35px;
+	font-family: verdanaa;
+	font-size: 20px;
+}
+#wrapper{
+	width:1200px;
+	height:1640px;
+	background-color: #e6ffe6;
+	margin-top: 20px;
+	border: 1px solid black;
+}
+#wrapper h3{
+	margin-left: 65px;
+}
+table{
+	width:1000px;
+	height:300px;
+	border:1px solid white;
+	background-color: #e6ffe6;
+	margin-top: 20px;
+	border-collapse: collapse;
+}
+td,th{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+#dec{
+	height:550px;
+	width:1200px;
+	background-color: #ffe6cc;
+}
+#dec p {
+	margin-left: 75px;
+	line-height: 30px;
+	font-size: 20px;
+}
+#dec h4{
+	
+	margin-left: 75px;
+	line-height: 25px;
+	
+}
+#dec hr{
+	border:1px solid black;
+	height:0px;
+	width:250px;
+	margin-left: 75px;
+}
+#dec form{
+	margin-left: 50px;
+	line-height: 35px;
+	font-family: verdanaa;
+	font-size: 25px;
+}
+#dec input{
+	border:1px solid black;
+	margin-left: 30px;
+}
+#last{
+	width:1200px;
+	height:350px;
+	background-color:  #ffcccc;
+	font-family: verdana;
+	font-size: 20px;
+	line-height: 25px;
+	text-align: center;
+}
+#last input{
+	border-bottom: 1px solid black;
+	 border-top: none;
+	 border-left: none;
+	 border-right: none;
+	 height:20px;
+
+}
+
+#last h3{
+	font-size:20px;
+	margin-left: 40px;
+	padding-top: 10px;
+}
+#y{
+	width:30px;
+	height:30px;
+	background-color: white;
+	border:1px solid black;
+	margin-left: 140px;
+}
+#y h2{
+	margin-left: 3px;
+}
+#n{
+	width:30px;
+	height:30px;
+	background-color: white;
+	border:1px solid black;
+	margin-left: 140px;
+	margin-top: 5px;
+}
+#n h2{
+	margin-left: 3px;
+}
+#principal{
+	width:850px;
+	height:350px;
+	border-left: 1px solid black;
+	float:right;
+	background-color:#cce6ff;
+}
+#principal h3{
+	margin-left: 5px;
+}
+#fee{
+	width:400px;
+	height:100px;
+	background-color: white;
+	border: 1px solid black;
+	margin-left: 30px;
+}
+#fee textarea{
+	width:400px;
+	height:100px;
+	border:none;
+	font-weight: bold;
+	font-size:25px;
+	font-family: verdana; 
+}
+#others{
+	width:400px;
+	height:100px;
+	background-color: white;
+	border: 1px solid black;
+	margin-left: 30px;
+}
+#others textarea{
+	width:400px;
+	height:100px;
+	border:none;
+	font-weight: bold;
+	font-size:25px;
+	font-family: verdana; 
+}
+
+#principal h3{
+	color:black;
+}
+#R{
+	width:400px;
+	height:350px;
+	float:right;
+	border-left: 1px solid black;
+	background-color: #f2ffcc;
+}
+#R h3{
+	margin-left: 5px;
+}
+#sig{
+	width:1200px;
+	height:60px;
+	background-color:#eeffcc;
+}
+#sig input{
+	border-bottom: 1px solid black;
+	 border-top: none;
+	 border-left: none;
+	 border-right: none;
+	 width:250px;
+	 margin-left: 80px;
+	 margin-right: 60px;
+}
+#sig-right{
+	width:800px;
+	height:60px;
+	float:right;
+	background-color:#ebebe0 ;
+}
+#sig-right h4{
+	font-size: 18px;
+	margin-left: 90px;
+}
+#sig-right input{
+	border-bottom: 1px solid black;
+	 border-top: none;
+	 border-left: none;
+	 border-right: none;
+	 width:240px;
+	 margin-left: 70px;
+	 margin-right: 60px;
+}
+#sig-left{
+	width:400px;
+	height:60px;
+	float:right;
+	background-color: #d9f2d9;
+}
+#sig-left input{
+	width:220px;
+	margin-left: 80px;
+}
+#sig-left h4{
+	margin-left: 160px;
+}
+#info input{
+	border-top:none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px:solid black;
+}
+.left-section form{
+	margin-left: 65px;
+	line-height: 37px;
+	font-family: verdana;
+	font-size: 23px;
+}
+.left-section input{
+	border:1px solid black;
+	margin-left: 12px;
+	margin-right: 12px;
+	border-top:none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px:solid black;
+	margin-right: 0px;
+	text-align: left;
+	width:200px;
+}
+td input{
+	border:none;
+	width:50px;
+	margin-left: 10px;
+	height:20px;
+}
+#navbar{
+	width:1200px;
+	height:290px;
+	background-color: #ffe6cc;
+}
+#navbar p,li,ul,h4{
+	line-height: 15px;
+}
+#footer{
+	width:1200px;
+	height:97px;
+	margin-top:5px;
+	background-color: #ebccff;
+}
+#R textarea{
+	width:250px;
+	height:150px;
+	margin-top: 50px;
+	border: none;
+	font-size: 20px;
+	border: 1px solid black;
+}
+#footer input{
+		margin-left: 100px;
+		margin-top: 20px;
+		width:80px;
+		height:30px;
+		border-radius: 10px;
+		border-right-color: 1px solid black;
+		font-size: 20px;
+		border: 1px solid black;
+
+}
+
+
+
